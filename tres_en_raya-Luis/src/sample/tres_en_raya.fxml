@@ -15,9 +15,9 @@
 
 <SplitPane dividerPositions="0.5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <items>
-      <SplitPane dividerPositions="0.5, 0.0" orientation="VERTICAL" style="-fx-background-color: YELLOW;">
+      <SplitPane dividerPositions="0.5, 0.0" orientation="VERTICAL" prefWidth="474.0" style="-fx-background-color: YELLOW;">
          <items>
-            <Text fill="#ff4242" strokeType="OUTSIDE" strokeWidth="0.0" text="JUEGO DE 3 EN RAYA" textAlignment="CENTER">
+            <Text fill="#ff4242" strokeType="OUTSIDE" strokeWidth="0.0" text="EVALUACION UNIDAD 1" wrappingWidth="451.27734375">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -124,6 +124,11 @@
                               </Text>
                               <TextArea id="djugador2" fx:id="djugador2" editable="false" layoutY="214.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" text="0" />
                               <Text layoutX="14.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DERROTAS" />
+                              <Text fill="#ff4242" layoutX="14.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: Luis F. Gutierrez Ccari" wrappingWidth="421.27734375">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Text>
                            </children>
                         </AnchorPane>
                     </content>
